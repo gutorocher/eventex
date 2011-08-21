@@ -2,26 +2,198 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>currentDocument</key>
+	<string>settings.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>children</key>
-			<array/>
+			<array>
+				<dict>
+					<key>filename</key>
+					<string>__init__.py</string>
+					<key>lastUsed</key>
+					<date>2011-08-20T21:20:35Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>__init__.pyc</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>core</string>
+					<key>regexFolderFilter</key>
+					<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+					<key>sourceDirectory</key>
+					<string>core</string>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>manage.py</string>
+					<key>lastUsed</key>
+					<date>2011-08-20T21:48:11Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>settings.py</string>
+					<key>lastUsed</key>
+					<date>2011-08-21T11:22:57Z</date>
+					<key>selected</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>settings.pyc</string>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>sqlite.db</string>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>urls.py</string>
+					<key>lastUsed</key>
+					<date>2011-08-21T04:16:05Z</date>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>urls.pyc</string>
+				</dict>
+				<dict>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>template</string>
+					<key>regexFolderFilter</key>
+					<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+					<key>sourceDirectory</key>
+					<string>template</string>
+				</dict>
+				<dict>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>static</string>
+					<key>regexFolderFilter</key>
+					<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+					<key>sourceDirectory</key>
+					<string>static</string>
+				</dict>
+				<dict>
+					<key>filename</key>
+					<string>README</string>
+					<key>lastUsed</key>
+					<date>2011-08-21T03:41:05Z</date>
+				</dict>
+			</array>
 			<key>expanded</key>
 			<true/>
 			<key>name</key>
 			<string>eventex</string>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict/>
+	<dict>
+		<key>core/views.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>12</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>settings.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>80</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>56</integer>
+		</dict>
+		<key>static/css/style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>template/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>100</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>100</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+		<key>urls.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>25</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>template/index.html</string>
+		<string>core/views.py</string>
+		<string>urls.py</string>
+		<string>settings.py</string>
+		<string>static/css/style.css</string>
+	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{210, 48}, {1070, 730}}</string>
+	<string>{{1002, -41}, {1070, 730}}</string>
 </dict>
 </plist>
