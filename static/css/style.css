@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+
+}
+
+#topo{
+	background: url(images/bg-topo.png) repeat-x top center #b9c0c0;
+	height:174px;
+}
+
+#center{
+	background: url(images/bg-center.png) repeat-x top ;
+	height:390px;
+	
+}
+
+#inf{
+	background: url(images/bg-inf.png) repeat-x top center #b9c0c0;
+	height:80px;
+	
+}
+
+#bg, a{
+  height: auto;
+}
+
+a{
+  margin: 0;
+  display: block;
+  width: 100%;
+}
