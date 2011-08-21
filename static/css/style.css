@@ -4,18 +4,18 @@ body{
 }
 
 #topo{
-	background: url(img/bg-topo.png) repeat-x top center #b9c0c0;
+	background: url(../img/bg-topo.png) repeat-x top center #b9c0c0;
 	height:174px;
 }
 
 #center{
-	background: url(img/bg-center.png) repeat-x top ;
+	background: url(../img/bg-center.png) repeat-x top ;
 	height:390px;
 	
 }
 
 #inf{
-	background: url(img/bg-inf.png) repeat-x top center #b9c0c0;
+	background: url(../img/bg-inf.png) repeat-x top center #b9c0c0;
 	height:80px;
 	
 }
