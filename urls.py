@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*- 
-from django.conf.urls.defaults import patterns, include, url
-from core.views import homepage
-from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf.urls.defaults import *
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -17,11 +15,9 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    url(r'^admin/', include(admin.site.urls)),
-	url(r'^$', 'core.views.homepage'),
-	url(r'^inscricao/',include('subscription.urls',namespace='subscription'))
+    (r'^admin/', include(admin.site.urls)),
+	url(r'^$', 'core.views.homepage', name='homepage'),
+	(r'^inscricao/',include('subscription.urls',namespace='subscription'))
 
 
 )
-
-urlpatterns += staticfiles_urlpatterns()
