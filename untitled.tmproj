@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>settings.py</string>
+	<string>subscription/models.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,7 +13,7 @@
 					<key>filename</key>
 					<string>__init__.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-20T21:20:35Z</date>
+					<date>2011-08-27T16:44:40Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -37,9 +37,7 @@
 					<key>filename</key>
 					<string>settings.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-21T11:22:57Z</date>
-					<key>selected</key>
-					<true/>
+					<date>2011-08-27T23:02:30Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -53,15 +51,13 @@
 					<key>filename</key>
 					<string>urls.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-21T04:16:05Z</date>
+					<date>2011-08-27T16:44:38Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>urls.pyc</string>
 				</dict>
 				<dict>
-					<key>expanded</key>
-					<true/>
 					<key>name</key>
 					<string>template</string>
 					<key>regexFolderFilter</key>
@@ -70,8 +66,6 @@
 					<string>template</string>
 				</dict>
 				<dict>
-					<key>expanded</key>
-					<true/>
 					<key>name</key>
 					<string>static</string>
 					<key>regexFolderFilter</key>
@@ -85,6 +79,16 @@
 					<key>lastUsed</key>
 					<date>2011-08-21T03:41:05Z</date>
 				</dict>
+				<dict>
+					<key>expanded</key>
+					<true/>
+					<key>name</key>
+					<string>subscription</string>
+					<key>regexFolderFilter</key>
+					<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+					<key>sourceDirectory</key>
+					<string>subscription</string>
+				</dict>
 			</array>
 			<key>expanded</key>
 			<true/>
@@ -93,9 +97,23 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>140</integer>
 	<key>metaData</key>
 	<dict>
+		<key>__init__.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>core/views.py</key>
 		<dict>
 			<key>caret</key>
@@ -103,7 +121,7 @@
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -115,23 +133,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>29</integer>
 				<key>line</key>
-				<integer>80</integer>
+				<integer>152</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>56</integer>
+			<integer>128</integer>
 		</dict>
 		<key>static/css/style.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>20</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>subscription/models.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>15</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -143,37 +175,21 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>100</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>10</integer>
+				<integer>26</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>100</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
 		</dict>
 		<key>urls.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>40</integer>
 				<key>line</key>
 				<integer>25</integer>
 			</dict>
@@ -185,15 +201,17 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>template/index.html</string>
-		<string>core/views.py</string>
 		<string>urls.py</string>
+		<string>__init__.py</string>
+		<string>core/views.py</string>
 		<string>settings.py</string>
+		<string>subscription/models.py</string>
+		<string>template/index.html</string>
 		<string>static/css/style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{1002, -41}, {1070, 730}}</string>
+	<string>{{758, 127}, {534, 613}}</string>
 </dict>
 </plist>

@@ -61,7 +61,8 @@ MEDIA_URL = '/media/'
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
 
-# arquive parte de seu projeto
+# arquive parte de seu projeto
+
 STATIC_ROOT = os.path.join(PROJECT_DIR,'public') 
 
 # URL prefix for static files.
@@ -80,8 +81,9 @@ STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 	os.path.join(PROJECT_DIR, 'static'),
 )
+
 
-# List of finder classes that know how to find static files in
+# lIST OF FINDER CLASSES THAT KNOW HOW TO FIND STATIC FILES IN
 # various locations.
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -109,6 +111,9 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'urls'
 
+EMAIL_BACKEND = 'django.core.mail.backend.console.EmailBackend'
+
+
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
@@ -124,8 +129,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'subscription',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
@@ -152,3 +158,5 @@ LOGGING = {
         },
     }
 }
+
+

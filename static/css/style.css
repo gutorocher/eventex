@@ -4,6 +4,7 @@ body {
     font-family: Helvetica;
 }
 
+
 #topo {
     background-image: url(../img/bg-topo.png);
     margin-left: 0px;
@@ -14,6 +15,7 @@ body {
     height: auto;
     background-repeat: repeat no-repeat;
 }
+
 
 #center {
     padding: 8px;
