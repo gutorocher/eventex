@@ -1,16 +1,20 @@
 # -*- coding: utf-8 -*- 
 # Create your views here.
 
+
+from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
-from forms import SubscriptionForm
-from reverse import reverse
-from django.shortcuts import get_object_or_404
+from django.template import RequestContext
+from django.shortcuts import render_to_response, get_object_or_404
+from subscription.forms import SubscriptionForm
+from subscription.models import Subscription
+
 
 def new(request):
 	
 	form = SubscriptionForm()
 	context = RequestContext(request, {'form': form})
-	return render_to_response('subsdcription/new.html',context)
+	return render_to_response('subscription/new.html',context)
 
 
 def create(request):
@@ -18,11 +22,11 @@ def create(request):
 	
 	if not form.is_valid():
 		context = RequestContext(request, {'form': form})
-		return render_to_response('subsdcription/new.html',context)
+		return render_to_response('subscription/new.html',context)
 	
 	subsdcription = form.save()
 	return HttpResponseRedirect(
-		reverse ('subsdcription:sucess', args=[subsdcription.pl]))
+		reverse ('subscription:success', args=[subsdcription.pl]))
 
 def subscribe(request):
 	if request.method == 'POST':
@@ -30,7 +34,8 @@ def subscribe(request):
 	else
 		return new(request)
 
-def sucess (request,pk)
+def success (request,pk)
 	subscription = get_object_or_404(Subscription, pk=pk)
 	context = RequestContext(request, {'subscription':subscription})
-	return render_to_response('subscription/sucess.html',context)
+	return render_to_response('subscription/success.html',context)
+	
