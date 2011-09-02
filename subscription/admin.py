@@ -10,8 +10,8 @@ class SubscriptionAdmin(admin.ModelAdmin):
 	'subscribed_today')
 
 	def subscribed_today(self, obj):
-		return obj.created_at.date()==datetime.date.today()
-	subscribed_today.short description = 'Inscrito hoje?'
+		return obj.created_at.date() == datetime.date.today()
+	subscribed_today.short_description = 'Inscrito hoje?'
 
 
 admin.site.register(Subscription, SubscriptionAdmin)
