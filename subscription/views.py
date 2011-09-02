@@ -36,6 +36,7 @@ def subscribe(request):
 
 def success (request,pk):
 	subscription = get_object_or_404(Subscription, pk=pk)
+	# VERY IMPORTANT READ DOCUMENTATION get_object_or_404
 	context = RequestContext(request, {'subscription':subscription})
 	return render_to_response('subscription/success.html',context)
 	
