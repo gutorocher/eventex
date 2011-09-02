@@ -26,15 +26,15 @@ def create(request):
 	
 	subsdcription = form.save()
 	return HttpResponseRedirect(
-		reverse ('subscription:success', args=[subsdcription.pl]))
+		reverse ('subscription:success', args=[subsdcription.pk]))
 
 def subscribe(request):
 	if request.method == 'POST':
 		return create(request)
-	else
+	else:
 		return new(request)
 
-def success (request,pk)
+def success (request,pk):
 	subscription = get_object_or_404(Subscription, pk=pk)
 	context = RequestContext(request, {'subscription':subscription})
 	return render_to_response('subscription/success.html',context)
