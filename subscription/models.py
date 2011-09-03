@@ -8,7 +8,7 @@ class Subscription(models.Model):
 		email = models.EmailField(unique=True) 
 		phone = models.CharField(max_length=20, blank=True) 
 		created_at = models.DateTimeField(auto_now_add=True)
-		
+		paid = models.BooleanField()
 		
 		def __unicode__(self):
 			return self.name
