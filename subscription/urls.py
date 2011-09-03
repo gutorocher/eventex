@@ -5,6 +5,6 @@ from django.conf.urls.defaults import patterns,url
 
 urlpatterns = patterns('subscription.views',
 	#route(r'^$', GET='new', POST='create', name='subscribe')
-	url(r'^$','subscribe', name='subscribe'),
-	url(r'^(\d+)/sucesso/$', 'success', name='success'),
+    url(r'^$','subscribe', name='subscribe'),
+    url(r'^(\d+)/sucesso/$', 'success', name='success'),
 )
