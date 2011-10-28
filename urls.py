@@ -18,7 +18,6 @@ urlpatterns = patterns('',
 	url(r'^$', 'core.views.homepage'),
 	(r'^inscricao/',include('subscription.urls',namespace='subscription')),
 	 # Uncomment the next line to enable the admin:
-    (r'^admin/', include(admin.site.urls)),
-
+    (r'^admin/', include(admin.site.urls)), 
 
 )

@@ -13,13 +13,13 @@
 					<key>filename</key>
 					<string>route.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-28T20:00:29Z</date>
+					<date>2011-10-18T20:46:12Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>__init__.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-28T01:01:49Z</date>
+					<date>2011-10-18T20:46:15Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -37,13 +37,13 @@
 					<key>filename</key>
 					<string>manage.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-28T20:37:33Z</date>
+					<date>2011-10-24T13:31:16Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>settings.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-28T20:37:27Z</date>
+					<date>2011-10-24T13:31:15Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -53,7 +53,7 @@
 					<key>filename</key>
 					<string>urls.py</string>
 					<key>lastUsed</key>
-					<date>2011-08-28T20:00:18Z</date>
+					<date>2011-10-25T12:39:00Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
@@ -86,6 +86,8 @@
 					<date>2011-08-28T05:36:36Z</date>
 				</dict>
 				<dict>
+					<key>expanded</key>
+					<true/>
 					<key>name</key>
 					<string>subscription</string>
 					<key>regexFolderFilter</key>
@@ -94,22 +96,80 @@
 					<string>subscription</string>
 				</dict>
 			</array>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>eventex</string>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>192</integer>
+	<integer>239</integer>
 	<key>metaData</key>
 	<dict>
-		<key>manage.py</key>
+		<key>__init__.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>12</integer>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>core/__init__.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>core/models.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>core/tests.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>core/views.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -144,98 +204,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>subscription/admin.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/forms.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/models.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>15</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>subscription/templates/subscription/new.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>24</integer>
+				<integer>30</integer>
 				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/templates/subscription/success.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>65</integer>
-				<key>line</key>
-				<integer>4</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/tests.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>subscription/urls.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>2</integer>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -247,14 +223,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>33</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>11</integer>
+			<integer>0</integer>
 		</dict>
 		<key>template/base.html</key>
 		<dict>
@@ -266,9 +242,9 @@
 				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>50</integer>
 			<key>firstVisibleLine</key>
-			<integer>4</integer>
+			<integer>0</integer>
 		</dict>
 		<key>template/index.html</key>
 		<dict>
@@ -289,9 +265,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>33</integer>
+				<integer>44</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -301,23 +277,12 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>subscription/templates/subscription/success.html</string>
-		<string>subscription/admin.py</string>
-		<string>manage.py</string>
 		<string>urls.py</string>
-		<string>route.py</string>
-		<string>subscription/forms.py</string>
-		<string>subscription/models.py</string>
-		<string>subscription/tests.py</string>
-		<string>subscription/urls.py</string>
 		<string>subscription/views.py</string>
-		<string>template/index.html</string>
-		<string>subscription/templates/subscription/new.html</string>
-		<string>template/base.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{529, 123}, {534, 613}}</string>
+	<string>{{9, 0}, {1027, 778}}</string>
 </dict>
 </plist>

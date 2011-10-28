@@ -14,7 +14,8 @@ class SubscriptionAdmin(admin.ModelAdmin):
 	list_filter = ('paid', )
 
 	def subscribed_today(self,obj):
-		return obj.created_at.date() == datetime.date.today()
+	    return obj.created_at.date() == datetime.date.today()
+
 	subscribed_today.short_description = 'Inscrito hoje ?'
 	subscribed_today.boolean = True
 
