@@ -1,0 +1,70 @@
+
+body {
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+
+#topo {
+    background-image: url(../img/bg-topo.png);
+    margin-left: 0px;
+    margin-top: 0px;
+    width: auto;
+    margin-right: 0px;
+    min-height: 100px;
+    height: auto;
+    background-repeat: repeat no-repeat;
+}
+
+
+#center {
+    padding: 8px;
+    background-image: url(../img/bg-center.png);
+    height: 257px;
+    background-repeat: repeat no-repeat;
+}
+
+#inf {
+    padding: 8px;
+    background-image: url(../img/bg-inf.png);
+    margin-left: -5px;
+    margin-top: 77px;
+    width: auto;
+    margin-right: -8px;
+    min-height: 56px;
+    height: auto;
+}
+
+#site {
+    width: auto;
+}
+
+#h2 {
+    padding: 8px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    width: auto;
+    margin-right: 0px;
+    min-height: 39px;
+    height: auto;
+}
+
+#conteudo-center {
+    margin-left: 3px;
+    width: auto;
+    margin-right: -3px;
+    min-height: 172px;
+    height: auto;
+}
+
+#foto-logo {
+    width: 237px;
+    height: 70px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+
+
+
+
