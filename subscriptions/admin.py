@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*- 
-
 import datetime
 from django.contrib import admin
-from subscription.models import Subscription
 from django.utils.translation import ugettext as _
 from django.utils.translation import ungettext
+from django.conf.urls.defaults import patterns, url
+from django.http import HttpResponse
+from subscriptions.models import Subscription
 
 class SubscriptionAdmin(admin.ModelAdmin):
 
@@ -13,13 +14,15 @@ class SubscriptionAdmin(admin.ModelAdmin):
 	search_fields = ('name', 'cpf', 'email', 'phone', 'created_at') 	
 	list_filter = ('paid', )
 
+	actions = ['mark_as_paid']
+
 	def subscribed_today(self,obj):
 	    return obj.created_at.date() == datetime.date.today()
 
 	subscribed_today.short_description = 'Inscrito hoje ?'
 	subscribed_today.boolean = True
 
-	actions = ['mark_as_paid']
+	
 
 
 	def mark_as_paid (self, request, queryset):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 
 from django import forms
-from subscription.models import Subscription
+from subscriptions.models import Subscription
 
 class SubscriptionForm(forms.ModelForm):
 	class Meta:
