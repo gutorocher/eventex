@@ -11,8 +11,6 @@ from django.core.mail import send_mail
 from django.conf import settings
 
 
-
-
 def subscribe(request):
 	if request.method == 'POST':
 		return create(request)
@@ -37,12 +35,12 @@ def create(request):
 	subscription = form.save()
 	#notifica o cadastro
 	send_subscription_email(subscription)
-	return HttpResponseRedirect(reverse ('subscriptions:success', args=[subsdcriptions.pk]))
+	return HttpResponseRedirect(reverse ('subscriptions:success', args=[subsdcription.pk]))
 
 
 def success (request, pk):
-	subscription = get_object_or_404(Subscription, pk=pk)
+	subscriptions = get_object_or_404(Subscription, pk=pk)
 	# VERY IMPORTANT READ DOCUMENTATION get_object_or_404
-	context = RequestContext(request, {'subscriptions':subscriptions})
+	context = RequestContext(request, {'subscriptions':subscription})
 	return render_to_response('subscriptions/success.html',context)
 	

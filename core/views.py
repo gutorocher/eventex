@@ -3,7 +3,7 @@
 
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from djanfo.conf import settings
+from django.conf import settings
 
 def homepage(request):
 
