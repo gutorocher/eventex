@@ -5,7 +5,7 @@ from django.utils.translation import ugettext as _
 from django.utils.translation import ungettext
 from django.conf.urls.defaults import patterns, url
 from django.http import HttpResponse
-from subscriptions.models import Subscription
+from subscription.models import Subscription
 
 class SubscriptionAdmin(admin.ModelAdmin):
 
@@ -21,9 +21,6 @@ class SubscriptionAdmin(admin.ModelAdmin):
 
 	subscribed_today.short_description = 'Inscrito hoje ?'
 	subscribed_today.boolean = True
-
-	
-
 
 	def mark_as_paid (self, request, queryset):
 		count = queryset.update(paid=True)
