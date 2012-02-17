@@ -35,5 +35,4 @@ class SubscriptionAdmin(admin.ModelAdmin):
 	mark_as_paid.short_description = _(u"Marcar como pagas")
 
 
-
 admin.site.register(Subscription, SubscriptionAdmin)
